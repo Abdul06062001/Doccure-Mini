@@ -61,6 +61,11 @@ export class DepartmentComponent {
     this.show=true;
     this.store=item;
   }
+  department:string=" ";
+
+  getdepartmentdetails(depart:string){
+    this.department=depart;
+  }
 
 }
 
